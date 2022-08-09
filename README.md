@@ -5,8 +5,7 @@
 # Resources
 ## Read or watch:
 
-* [Secrets of
-* printf](https://alx-intranet.hbtn.io/rltoken/gxdsTXxWMklkBTgY197HYQ)
+* [Secrets of printf](https://alx-intranet.hbtn.io/rltoken/gxdsTXxWMklkBTgY197HYQ)
 * Group Projects concept page (Don’t forget to read this)
 * Flowcharts concept page
 ## man or help:
