@@ -28,7 +28,7 @@ int print_char(va_list types, char buffer[],
  * @width: get width.
  * @precision: Precision specification
  * @size: Size specifier
- * Return: Number of chars printed
+ * Return: Number of strings printed
  */
 int print_string(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
@@ -83,7 +83,7 @@ int print_string(va_list types, char buffer[],
  * @width: get width.
  * @precision: Precision specification
  * @size: Size specifier
- * Return: Number of chars printed
+ * Return: prints percentage sign
  */
 int print_percent(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
@@ -106,7 +106,7 @@ int print_percent(va_list types, char buffer[],
  * @width: get width.
  * @precision: Precision specification
  * @size: Size specifier
- * Return: Number of chars printed
+ * Return: Prints integer
  */
 int print_int(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
@@ -150,7 +150,7 @@ int print_int(va_list types, char buffer[],
  * @width: get width.
  * @precision: Precision specification
  * @size: Size specifier
- * Return: Numbers of char printed.
+ * Return: prints binary number
  */
 int print_binary(va_list types, char buffer[],
 	int flags, int width, int precision, int size)

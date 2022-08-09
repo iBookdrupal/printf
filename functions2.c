@@ -144,7 +144,7 @@ int print_reverse(va_list types, char buffer[],
  * @width: get width
  * @precision: Precision specification
  * @size: Size specifier
- * Return: Numbers of chars printed
+ * Return: print ROT13 precision
  */
 int print_rot13string(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
